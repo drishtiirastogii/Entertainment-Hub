@@ -22,20 +22,20 @@ document.addEventListener("DOMContentLoaded", function(){
 document.addEventListener("DOMContentLoaded", function(){
     var openButton = document.getElementById("dice-game");
     openButton.addEventListener("click", function(){
-    window.open("../public/dice game/Dice.html","_blank");
+    window.open("./dice game/Dice.html","_blank");
     });
 });
 
 document.addEventListener("DOMContentLoaded", function(){
     var openButton = document.getElementById("simon-game");
     openButton.addEventListener("click", function(){
-    window.open("../public/Simon Game/simon.html","_blank");
+    window.open("./Simon Game/simon.html","_blank");
     });
 });
 
 document.addEventListener("DOMContentLoaded", function(){
     var openButton = document.getElementById("drums");
     openButton.addEventListener("click", function(){
-    window.open("../public/drum kit/drum.html","_blank");
+    window.open("./drum kit/drum.html","_blank");
     });
 });
