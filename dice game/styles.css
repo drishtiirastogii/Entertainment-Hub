@@ -1,0 +1,46 @@
+.wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+.dice-area {
+  margin: 0px 50px;
+  display: inline-block;
+  align-items: center;
+
+}
+
+.diceBody {
+  background-color: #d140be;
+  text-align: center;
+  align-items: center;
+ 
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #ece516;
+  font-size: 5rem;
+  color: #0ed7cd;
+}
+
+p {
+  font-size: 2rem;
+  color: #0ed7cd;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  font-family: 'Indie Flower', cursive;
+}
+
+button:hover{
+  color: black;
+}

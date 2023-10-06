@@ -1,0 +1,100 @@
+.background {
+    background: linear-gradient(300deg, #00bfff, rgb(178, 164, 255), #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    margin-bottom: 0%;
+}
+
+@keyframes gradient-animation {
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+/* 1st section 3D cube image animation*/
+.cube {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateY(0deg);
+    animation: rotate 10s infinite linear;
+    margin-left: 30%;
+  }
+  
+  .face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+  }
+
+  .front { transform: translateZ(100px); background-image: url('../public/Staticimages/entertainment.jpg'); }
+  .back { transform: rotateY(180deg) translateZ(100px); background-image: url('../public/Staticimages/entertainment.jpg'); }
+  .left { transform: rotateY(-90deg) translateZ(100px); background-image: url('../public/Staticimages/entertainment.jpg'); }
+  .right { transform: rotateY(90deg) translateZ(100px); background-image: url('../public/Staticimages/entertainment.jpg'); }
+  .top { transform: rotateX(90deg) translateZ(100px); background-image: url('../public/Staticimages/entertainment.jpg'); }
+  .bottom { transform: rotateX(-90deg) translateZ(100px); background-image: url('../public/Staticimages/entertainment.jpg'); }
+  
+  @keyframes rotate {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+  }
+
+/* 1st section entertainment heading animation*/
+.heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.EntertainmentHub
+{
+    font-size: 3rem;
+    white-space: nowrap;
+    animation: scrollText 10s linear infinite;
+}
+
+@keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+/* 2nd section of web page */
+#description
+{
+    padding-bottom: 5%;
+}
+
+/* 3rd section */ 
+#games-types{
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#dice-game{
+    box-shadow: 0px 0px 5px #f3f3f3f4;
+    background-color: #f0f0f0;
+}
+
+/* 4th section */
+.desc{
+    background-color: black;
+    color: azure;
+    margin-top: 0%;
+}
